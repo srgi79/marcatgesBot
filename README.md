@@ -2,7 +2,10 @@
 Telegram Bot to record timeworks
 
 ## INSTALATION
-- Create a python virtual enviorement with ~~~ py -m venv env ~~~
+- Create a python virtual enviorement with:
+~~~ 
+py -m venv env 
+~~~
 - Install requirements with:
 ~~~ 
 pip install -r requirements.txt 
