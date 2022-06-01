@@ -8,6 +8,9 @@ py -m venv env
 ~~~
 - Install requirements with:
 ~~~ 
+.\env\Scripts\activate 
+~~~
+~~~ 
 pip install -r requirements.txt 
 ~~~
 - Copy main.py and edit:
