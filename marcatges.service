@@ -1,0 +1,12 @@
+[Unit]
+Description=Telegram Bot Service
+Wants=network.target
+After=multi-user.target
+
+[Service]
+ExecStartPre=/bin/sleep 10
+ExecStart=/home/pi/marcatgesBot/env/bin/python /home/pi/marcatgesBot/main.py & >
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
